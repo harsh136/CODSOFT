@@ -13,12 +13,11 @@ int main()
 
     do
     {
-        // Reset the board for a new game
         for (int i = 0; i < 9; i++)
         {
             space[i] = ' ';
         }
-        player = 'X'; // Start with 'X' each game
+        player = 'X';
         run = true;
         board(space);
 
@@ -40,7 +39,6 @@ int main()
             }
             else
             {
-                // Switch players
                 player = (player == 'X') ? 'O' : 'X';
             }
         }
