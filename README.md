@@ -13,7 +13,6 @@ I have completed the following tasks:
 
 ## Repository Contents
 
-* `numberguess.cpp`
-* `calculator.cpp`
-* `TicTacToe.cpp`
-* `README.md`
+* [Number Guessing Game](numberguess.cpp)
+* [Simple Calculator](calculator.cpp)
+* [Tic-Tac-Toe Game](TicTacToe.cpp)
